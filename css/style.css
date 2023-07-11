@@ -34,6 +34,7 @@ copy-right-text-color: rgba(255, 255, 255, 0.40);
   padding-top: 128px;
 }
 .btn {
+  display: inline-block;
   font-size: 18px;
   color: #fff;
   background-color: #e55473;
@@ -172,4 +173,32 @@ shop-exclusive Section
   font-weight: 600;
   color: rgba(39, 39, 39, 0.8);
   line-height: 35px;
+}
+
+/* ==============
+cta Section
+=================*/
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 84, 115, 0.05);
+}
+.cta-info {
+  text-align: center;
+  max-width: 594px;
+  margin-right: 186px;
+}
+.cta-info .cta-title {
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.cta-info .cta-title span {
+  color: #e55473;
+}
+.cta-info .cta-text {
+  margin-bottom: 32px;
+}
+.cta-img {
+  padding: 100px 0;
 }
