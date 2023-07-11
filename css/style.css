@@ -246,3 +246,32 @@ Newsletter Section
   border: none;
   cursor: pointer;
 }
+
+/* ==============
+footer
+=================*/
+.footer {
+  background-color: #111010;
+}
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #e55473;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.footer-title span {
+  color: #fff;
+}
+.footer-text {
+  max-width: 625px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.copy-right-text {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
