@@ -199,3 +199,50 @@ instagram Section
 .instagram-body img:last-child {
   margin-right: 0;
 }
+
+/* ==============
+Newsletter Section
+=================*/
+.newsletter {
+  min-height: 450px;
+  margin-bottom: 128px;
+  background-image: url(../img/newsletter-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-info {
+  margin-bottom: 48px;
+}
+.newsletter-info h2 {
+  margin-bottom: 16px;
+}
+.newsletter-form {
+  display: flex;
+}
+.newsletter-form .input-email {
+  width: 700px;
+  margin-right: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 22px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+}
+.newsletter-form .input-email::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+}
+.newsletter-form .input-email:focus {
+  outline: none;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+.newsletter-form .btn {
+  border: none;
+  cursor: pointer;
+}
