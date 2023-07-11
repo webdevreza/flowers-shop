@@ -224,13 +224,14 @@ Testimonial Section
   padding: 20px 20px 30px 20px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-}
-
-.testimonial-item:hover {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 4px solid transparent;
 }
 .testimonial-item:last-child {
   margin-right: 0;
+}
+
+.testimonial-item:hover {
+  border-bottom: 4px solid #e55473;
 }
 .testimonial-item .customer-img {
   max-width: 70px;
