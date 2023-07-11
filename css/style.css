@@ -107,13 +107,20 @@ Featured section
 }
 
 .featured-item .featured-item-name {
+  text-align: center;
+}
+.featured-item .featured-item-name a {
+  display: inline-block;
   font-size: 24px;
   font-weight: 700;
   line-height: 35px;
-  text-align: center;
   text-decoration: underline;
   color: #272727;
   margin-top: 32px;
+  transition: all 0.3s ease;
+}
+.featured-item .featured-item-name a:hover {
+  color: #e55473;
 }
 /* individual item css */
 .featured-item--1 .featured-item-img-box {
