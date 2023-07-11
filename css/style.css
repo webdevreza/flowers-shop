@@ -132,23 +132,44 @@ Featured section
 .featured-item--1 .featured-item-img-box {
   background-color: rgba(167, 33, 98, 0.15);
 }
-
 .featured-item--1 .featured-item-img-box img {
   max-width: 310px;
 }
-
 .featured-item--2 .featured-item-img-box {
   background-color: rgba(5, 151, 160, 0.15);
   padding-bottom: 51px;
 }
-
 .featured-item--2 .featured-item-img-box img {
   max-width: 370px;
 }
 .featured-item--3 .featured-item-img-box {
   background-color: rgba(71, 125, 17, 0.15);
 }
-
 .featured-item--3 .featured-item-img-box img {
   max-width: 314px;
+}
+
+/* ==============
+shop-exclusive Section
+=================*/
+.exclusive-boxes {
+  height: 320px;
+  background-color: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.exclusive-boxes .icon-box {
+  text-align: center;
+  margin: 0 50px;
+}
+.exclusive-boxes .icon-box img {
+  margin-bottom: 24px;
+}
+.exclusive-boxes .icon-box .icon-box-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(39, 39, 39, 0.8);
+  line-height: 35px;
 }
