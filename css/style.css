@@ -1,1 +1,75 @@
+/* ==============
+global css Start
+=================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+/* Colors =======
+Pink: #E55473
+heading-black: #272727
+body-text: rgba(39, 39, 39, 0.60)
+light-dark-bg: rgba(39, 39, 39, 0.05);
+light-pink-1: rgba(229, 84, 115, 0.10);
+light-pink-2: rgba(229, 84, 115, 0.05)
 
+footer-bg: #111010
+footer-text: color: rgba(255, 255, 255, 0.90);
+
+copy-right-text-color: rgba(255, 255, 255, 0.40);
+========
+*/
+.container {
+  max-width: 1440px;
+}
+.section-padding {
+  padding: 128px 0;
+}
+.section-padding-top {
+  padding-top: 128px;
+}
+.btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: #e55473;
+  border-radius: 8px;
+  padding: 20px 43px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background-color: #c93a59;
+}
+/* ==============
+Header section
+=================*/
+.header {
+  padding: 50px 240px 0 240px;
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+}
+.header-info {
+  align-self: center;
+  max-width: 708px;
+}
+.header-info .header-title {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1;
+  color: #272727;
+  margin-bottom: 32px;
+}
+.header-info .header-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(39, 39, 39, 0.6);
+  line-height: 30px;
+  margin-bottom: 32px;
+}
+.header-img {
+  margin-left: 97px;
+}
