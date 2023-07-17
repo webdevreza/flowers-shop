@@ -1,5 +1,5 @@
 /* mobile device */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 576px) {
   /* global */
 
   .section-title {
@@ -14,7 +14,7 @@
   }
   /* header */
   .header {
-    padding: 20px;
+    padding: 80px 20px 0;
     padding-bottom: 0;
     flex-direction: column;
     text-align: center;
@@ -51,18 +51,22 @@
   }
   .featured-item--1 .featured-item-img-box img {
     max-width: 50%;
+    padding: 30px 0 0;
   }
   .featured-item--2 .featured-item-img-box img {
     max-width: 50%;
+    padding: 30px 0 0;
   }
   .featured-item--3 .featured-item-img-box img {
     max-width: 50%;
+    padding: 30px 0 0;
   }
   .featured-item .featured-item-name a {
     font-size: 20px;
     line-height: 26px;
     margin-top: 10px;
   }
+
   /* extra sec */
   .exclusive-boxes {
     height: auto;
@@ -81,5 +85,63 @@
   .exclusive-boxes .icon-box .icon-box-text {
     font-size: 18px;
     line-height: 26px;
+  }
+  /* cta sectioin */
+  .cta {
+    flex-direction: column;
+    padding: 60px 10px 40px;
+  }
+  .cta-info {
+    margin-right: auto;
+  }
+  .cta-img {
+    padding: 20px 0;
+  }
+  /* instagram section */
+  .instagram-body {
+    flex-direction: column;
+  }
+  .instagram-body img {
+    margin-right: 0;
+  }
+  .instagram-info {
+    padding: 0 10px;
+  }
+  .instagram-body {
+    padding: 0 10px;
+  }
+  /* tetimonial section */
+  .testimonial-info {
+    padding: 0 10px;
+  }
+  .testimonial-item {
+    margin-right: 0;
+    width: 100%;
+    padding: 20px;
+  }
+  .testimonial-wrapper {
+    flex-direction: column;
+    padding: 0 10px;
+    gap: 10px;
+  }
+  /* newsletter section */
+  .newsletter {
+    min-height: 300px;
+    margin: 60px 10px;
+  }
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .newsletter-form .input-email {
+    width: auto;
+    padding: 20px;
+    margin-right: 0;
+  }
+  /* footer */
+  .footer-title {
+    font-size: 38px;
+    margin-bottom: 20px;
   }
 }
